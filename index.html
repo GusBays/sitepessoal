@@ -1,21 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gustavo Bays de Oliveira</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Patua+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2d0f3249e4.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header>
-        <nav class="menu">
-          <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Portfólio</a></li>
-            <li><a href="#">Contato</a></li>
-          </ul>
-        </nav>
+  <header id="home">
+    <nav class="menu">
+      <ul class="container">       
+        <li><a href="#home">Início</i></a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#portfolio">Projetos Pessoais</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    
+    <div class="titulo container">
         <h1 class="site-title">Gustavo Bays de Oliveira</h1>
         <h2 class="site-subtitle">Jr. front-end developer</h2>
-      </header>
+    </div>
+  </header>
+    
+    <section class="sobre container" id="sobre">
+      <h2>Sobre</h2>
+      <figure class="avatar">
+        <img src="img/gustavo-pequeno.jpg" alt="Gustavo Bays de Oliveira">
+      </figure>
+
+      <p>Sou uma pessoa muito tranquila, focada em meus objetivos, procuro absorver todo conhecimento possível e ajudar naquilo que for do meu alcance.
+         Atualmente estou cursando ciência da computação na Universidade do Vale do Rio dos Sinos.
+      </p>
+      <p>Meu primeiro contato com programação foi em 2017 com o Projeto SAP TechSchool Social. Esse projeto foi um curso fornecido pela SAP Labs
+         Latin America que ocorreu nos meus 3 anos de ensino médio na escola Polisinos onde tivemos aulas focadas em inglês, programação e robótica.</p>
+      <p>As aulas de programação começaram no primeiro ano com o básico de HTML e CSS, no segundo ano vimos um pouco de Python e, no terceiro,
+         vimos um pouco mais a fundo de banco de dados utilizando MySQL.
+      </p>
+      <p>Este site foi construído durante a <a href="https://www.alura.com.br/imersao-css">Imersão CSS da Alura</a>.</p>
+
+    </section>
+
+    <section class="portfolio container" id="portfolio">
+      <h2>Projetos</h2>
+
+       <div class="grid">
+        
+      <div class="flip-card">
+        <div class="card">
+          <figure class="card-front">
+            <img class="img-portfolio" src="img/robotic-sap.jpeg" alt="robotic">
+            <figcaption>Robótica na SAP</figcaption>
+          </figure>
+          <div class="card-back">
+            Circuito de Robótica realizado na SAP de São Leopoldo.
+          </div>
+        </div>
+      </div> 
+      
+      <div class="flip-card">
+        <div class="card">
+          <figure class="card-front">
+            <img class="img-portfolio" src="" alt=">Mobile">
+            <figcaption>Mobile</figcaption>
+          </figure>
+          <div class="card-back">
+            Circuito de Robótica realizado na SAP de São Leopoldo.
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="card">
+          <figure class="card-front">
+            <img class="img-portfolio" src="" alt="Web design">
+            <figcaption>Web design</figcaption>        
+          </figure>
+          <div class="card-back">
+            Circuito de Robótica realizado na SAP de São Leopoldo.
+          </div>
+        </div> 
+      </div>
+
+      <div class="flip-card">
+        <div class="card">
+          <figure class="card-front">
+            <img class="img-portfolio" src="" alt="Projetos pessoais">
+            <figcaption>Projetos pessoais</figcaption>
+          </figure>
+          <div class="card-back">
+            Circuito de Robótica realizado na SAP de São Leopoldo.
+          </div>
+        </div>
+      </div>
+    </section>
+        
+    <section class="contato container" id="contato">
+          <h2>Contato</h2>
+
+          <div class="grid icons">
+            <a target="_blank" href="https://github.com/GusBays">
+              <i class="fab fa-github"></i>
+            </a>
+            <a target="_blank" href="https://www.instagram.com/gusbays/">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/gustavobays/">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:gustavo_boliv@hotmail.com">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+    </section>    
 </body>
+
 </html>
