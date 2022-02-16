@@ -1,2 +1,3 @@
 # sitepessoal
-Site pessoal utilizando HTML e CSS
+
+Personal website created using HTML and CSS.
